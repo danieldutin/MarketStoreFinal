@@ -16,7 +16,7 @@ namespace MarketStoreFinal
             }
             else
             {
-                double currentDiscountBonus = (Math.Floor(customer.PurchaseValue / 100));
+                double currentDiscountBonus = (Math.Floor(customer.Turnover / 100));
                 if (currentDiscountBonus > 9)
                 {
                     currentDiscountBonus = 9;
